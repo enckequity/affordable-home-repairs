@@ -14,48 +14,55 @@ interface GalleryItem {
 }
 
 const images: GalleryItem[] = [
+  // Owner-uploaded project photos from Google My Business
   {
-    src: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&q=80",
-    alt: "Interior painting project",
+    src: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJwt-tB9Wy16munWhd2DjMDnDH5RwXztFPSBtG48n5A5A6BpkmojhaVMt69sLJw767WbW08E5gsN413WNNTagEGqo-_Wo5nIwoHkd1A9sU_jIqz9DLBsFicCdQwE5Sclyz9oP6sFPswjWf=w800-h600-k-no",
+    alt: "Interior painting and drywall work by Affordable Home Repairs in Crestview FL",
     category: "Painting",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80",
-    alt: "Custom carpentry work",
+    src: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerdcHy7fT1N0ka56pWgDZHqQOoKCETfq5YoCzkD6uist7QA1T4Ic8z6MuHNGHrhLyBy7jilnGa074ggZVI9Xmc8xVxs8-dvQiJK9IRhkT1KmfV6VAX8K8_D04qX-VYu_L8Teioo=w800-h600-k-no",
+    alt: "Home improvement project by Andy Watts in the Florida Panhandle",
     category: "Carpentry",
   },
   {
-    src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
-    alt: "Kitchen cabinet refinishing",
+    src: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerHQqOOdC_PtFl233R6Pjnpy2WbvP5XtvDCHGNHVmIzp9C-horxGz9phZz_0KV5QhOqTvqa2vei7gbp2JdxjIV5WNhhDpyuCaR9q83wnoJFmRz_2YOECxWaj_jHVE4RLMxLxGex=w800-h600-k-no",
+    alt: "Kitchen and cabinet renovation work in Okaloosa County",
     category: "Cabinets",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80",
-    alt: "Roof repair work",
-    category: "Roofing",
+    src: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFdBQPhtcf_bwIUWf4N82-zgMTwlswCwA59ao5xLBsihWUkw2AYiYLho_vJEQYHfM8P3m61ua_x_OIPGzm1lxCFuxtSWZFNTJecXppWxoc3EIhHK67svbpWuyrJbIOIHZNl2jr=w800-h600-k-no",
+    alt: "Carpentry and trim work completed by Affordable Home Repairs",
+    category: "Carpentry",
   },
   {
-    src: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=600&q=80",
-    alt: "Wall painting in progress",
+    src: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepEvfup7wFb7Z7BFirV4P1iDdMJEHI6X_1A6HKBmGZ4UkKkVFuRZ6SA0SjqczD9W9Uo1ihGLuAICF5EATQHRL2rtt6yksw1sU9yWdt8x_a346njdStkBLV9JoS8ujgoPaEdRee2xw=w800-h600-k-no",
+    alt: "Finishing and detail work on a Crestview home repair project",
     category: "Painting",
   },
+  // Customer-submitted project photos from Google reviews
   {
-    src: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?w=600&q=80",
-    alt: "Home interior renovation",
+    src: "https://lh3.googleusercontent.com/geougc-cs/ABOP9psUIMou_EAhmg8cC7NkIsigu2VqeSXunOwjZjgyK7IX5JFLu_EYAfOcl08lWet81lGZnlWS5fNIsn_V_mluhTGS7FeyBPPWEB20VEdNhxJHnlqglp-0kjE4r5p3czlXlsPOCmZrSwMcyyM=w800-h600-k-no",
+    alt: "Customer review photo — completed home repair project near Eglin AFB",
     category: "Carpentry",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=600&q=80",
-    alt: "Home exterior repair",
-    category: "Roofing",
+    src: "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptNYurVel2O2vMlXuKArvSe9P3D4YoME_oJu6vDQpOgpehnvaWORTye3oenDglHKXY16JgPNlqno3FGFvVaKoqs2vGv_08FKyy2Vq2PzX_pHAxlu1LPxNLSC_icGDoIwlX1Ay9SQQzBSPlb=w800-h600-k-no",
+    alt: "Customer review photo — painting and finishing work in Fort Walton Beach",
+    category: "Painting",
   },
   {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
-    alt: "Workshop and tools",
-    category: "Carpentry",
+    src: "https://lh3.googleusercontent.com/geougc-cs/ABOP9puTmFrMQ5hf9y0ehMZQD_T94iUqbDr6uyRsGo55h51bIn9gKNeDL7t2KHJ1HtjSNRObF8fCKFXQeQ_NmbFq-R0O942Az4FN4tVWwiIYgSUaAxXbfd3eRs11oJyNmKfJITB3YmC1beGCbRs=w800-h600-k-no",
+    alt: "Customer review photo — home maintenance and repair in Niceville area",
+    category: "Cabinets",
+  },
+  {
+    src: "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvP-MF9AdwvWvCqGtTZVGK-QIsMj34J9ZTU_mf_iIX58NLShxYoXJU-Na6MESFJ9ZAytjOkPvDWomFnhD1LldGcpnLpEpiertk4G1A7w1ankx9z0woD5qFU7OBlip8fR8GGd5Fad6tLXJ-J=w800-h600-k-no",
+    alt: "Customer review photo — handyman work by Andy Watts in Crestview FL",
+    category: "Roofing",
   },
 ];
 
