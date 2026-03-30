@@ -56,7 +56,6 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading), ui-serif, Georgia, serif;
-  color: var(--color-primary-dark);
   line-height: 1.2;
 }
 
