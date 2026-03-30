@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #1B4332;
+  --color-primary-light: #2D6A4F;
+  --color-primary-dark: #0B2318;
+  --color-secondary: #D4A373;
+  --color-secondary-light: #E6C9A8;
+  --color-accent: #E76F51;
+  --color-accent-dark: #C4563B;
+  --color-bg: #FAFAF8;
+  --color-bg-alt: #F0EDE8;
+  --color-text: #1A1A1A;
+  --color-text-light: #4A4A4A;
+  --color-text-muted: #6B7280;
+  --font-heading: var(--font-bitter);
+  --font-body: var(--font-source-sans);
+}
+
+/* ---------------------------------------------------------- */
+/* Base                                                       */
+/* ---------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), ui-serif, Georgia, serif;
+  color: var(--color-primary-dark);
+  line-height: 1.2;
+}
+
+/* ---------------------------------------------------------- */
+/* Section utilities                                          */
+/* ---------------------------------------------------------- */
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.section-padding-sm {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding-sm {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* Misc utilities                                             */
+/* ---------------------------------------------------------- */
+
+.text-balance {
+  text-wrap: balance;
+}
