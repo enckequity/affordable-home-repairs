@@ -41,11 +41,12 @@ export default function Hero() {
         {/* Headline */}
         <motion.h1
           variants={fadeUp}
-          className="font-heading text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl"
+          className="font-heading text-4xl font-bold leading-tight text-white drop-shadow-lg md:text-5xl lg:text-6xl"
+          style={{ textShadow: "0 2px 16px rgba(0,0,0,0.4)" }}
         >
           27 Years of Honest Home Repairs
           <br className="hidden sm:block" />
-          <span className="text-secondary"> — Done Right the First Time</span>
+          <span className="text-white"> — Done Right the First Time</span>
         </motion.h1>
 
         {/* Subheadline */}
